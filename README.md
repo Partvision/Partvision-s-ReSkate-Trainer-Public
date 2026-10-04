@@ -4,10 +4,11 @@ For ReSkate 1.0.6 and Skate Steam build 25414733. Development preview; new gamep
 
 ## Install or upgrade
 
-1. Extract the entire ZIP.
-2. Close Skate and every ReSkate launcher window.
-3. Run `Install.cmd`. If Windows denies access to the Steam folder, run it as administrator.
-4. Start ReSkate normally, enter a solo map, and press **Home**.
+1. Fetch the latest release from https://github.com/Partvision/Partvision-s-ReSkate-Trainer-Public/releases and download the .zip.
+2. Extract the entire ZIP.
+3. Close Skate and every ReSkate launcher window.
+4. Run `Install.cmd`. If Windows denies access to the Steam folder, run it as administrator.
+5. Start ReSkate normally, enter a solo map, and press **Home**.
 
 The installer validates the supported game and package hashes, and backs up your DLL/launcher under `EarlyTrainerBackups`. Default folder: `C:\Program Files (x86)\Steam\steamapps\common\Skate`. This is a custom ReSkate DLL and matching launcher, not a Mods-tab package. `Restore.ps1` restores a selected backup. `Install.ps1 -VerifyOnly` checks compatibility without installing.
 
