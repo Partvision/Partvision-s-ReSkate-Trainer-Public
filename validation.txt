@@ -1,0 +1,22 @@
+0.4.0-preview6 validation
+Windows x64 Release: runtime and launcher compile/link PASS.
+All six ImGui pages and four Player pages, ready and unavailable states at 75/100/150 percent scale: PASS with assertions enabled.
+Home and all four Player layouts: software-rendered ImGui draw data visually inspected.
+Display setting names verified in installed build engine-settings catalog.
+Visual/performance game behavior and multiplayer: NOT playtested.
+Settings bounds, manual entry above drag ranges and serialization roundtrip: PASS.
+Right-click numeric input, Enter commit, invalid-entry rejection, Escape cancel and redraw retention: PASS.
+Malformed settings and reserved/duplicate bindings: PASS.
+Blocked held-key behavior and release/rearm: PASS.
+Measured jump height and teleport/respawn discontinuities: PASS.
+Native ground-to-falling jump detection and one-shot behavior: PASS in simulation.
+Seven feature groups / 175 named fields plus the active ground-speed curve: PASS against installed game data.
+Independent/full field and curve reset, fresh baseline capture, unrelated bytes/curves, curve X/domain/type preservation and unsupported mappings: PASS.
+No Fall ownership, queue retry/cancellation/restoration and legacy binding migration: PASS.
+No Fall: four bail flags disabled and 22 collision thresholds raised, exact restoration: PASS.
+Native movement math: non-compounding desired velocity, conditional restoration, zero gravity restoration, horizontal-only normalized steering, ground/falling jump edges, respawn/gap rejection: PASS.
+Movement config, unbound keys, legacy defaults and conflict rejection: PASS.
+0.4 config persistence, schema-2/3/4 migration and new binding conflicts: PASS.
+Upstream physics-tuning tests: PASS (3801 fields, 89 curves).
+Game executable fingerprints: PASS (same supported executable as 0.1).
+In-game playtest: NOT RUN for this new build. All new trick tuning and local movement overrides are experimental; animation/trajectory jumps are unsupported.
